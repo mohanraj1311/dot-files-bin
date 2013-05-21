@@ -24,6 +24,7 @@ mkdir ~/bin/supernova
 cd ~/bin/supernova
 virtualenv --prompt="(SUPERNOVA)" .venv
 source .venv/bin/activate
+pip --upgrade distribute
 # following the directions from:
 # https://one.rackspace.com/display/NOVA/Accessing+Nova+Environments
 pip install rackspace-novaclient

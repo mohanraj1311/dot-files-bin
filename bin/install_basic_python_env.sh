@@ -7,5 +7,6 @@ if [[ $UID -eq 0 ]]; then
 fi
 sudo apt-get install python-dev python-pip libmysqlclient-dev libpq-dev \
     libxml2-dev libxslt1-dev python2.6-dev
+sudo pip --upgrade distribute
 sudo pip --timeout 30 install flake8 hgtools ipython
 exit 0
